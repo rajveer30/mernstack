@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title> Simple Calculator</title>
+    <link rel="stylesheet" href="assig6.css">
+    <script src="ass6.js"></script>
+</head>
+<body>
+    <div>
+    <h1>Simple Calculator</h1>
+
+    <table>
+    <tr>
+        <td colspan="5"><input    id="result" type="text" ></td>
+    </tr>
+
+
+    <tr>
+        
+             <td colspan="2"><input type="button" value="AC" onclick="clr()" class="val" id="special"></td>
+             <td><input type="button" value="DEL" onclick="del()" ></td>
+             <td><input type="button" value="/" onclick="disp('/')" class="val"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="disp('1')" ></td>
+        <td><input type="button" value="2" onclick="disp('2')" ></td>
+        <td><input type="button" value="3" onclick="disp('3')" ></td>
+        <td><input type="button" value="*" onclick="disp('*')" ></td>
+    </tr>
+
+    <tr>
+        <td><input type="button" value="4" onclick="disp('4')" ></td>
+        <td><input type="button" value="5" onclick="disp('5')" ></td>
+        <td><input type="button" value="6" onclick="disp('6')" ></td>
+        <td><input type="button" value="+" onclick="disp('+')" ></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="disp('7')"></td>
+        <td><input type="button" value="8" onclick="disp('8')" ></td>
+        <td><input type="button" value="9" onclick="disp('9')" ></td>
+        <td><input type="button" value="-" onclick="disp('-')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="." onclick="disp('.')"></td>
+        <td><input type="button" value="0" onclick="disp('0')" ></td>
+        <td colspan="2"> <input type="button" value="=" onclick="solve()" id="special"></td>
+    </tr>
+</div>
+</table>
+</body>
+</html>
